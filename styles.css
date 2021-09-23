@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    margin: 0;
+    background-color: #e8f0f2;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #053742;
+}
+
+h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Karla', sans-serif;
+    color: rgb(107, 107, 107)
+}
+
+h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Quicksand', sans-serif;
+    color: #053742;
+}
+
+.p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Karla', sans-serif;
+    color: rgb(107, 107, 107);
+}
+
+.nav {
+    position: relative;
+    display: inline;
+    margin: 0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 100%;
+}
+
+.nav:hover {
+    background-color: #074b5a;
+    transition: .1s ease-in-out;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar {
+    background-color: #053742
+}
+
+hr {
+    border-top: 5px dotted  rgb(136, 135, 135);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 7.5%;
+}
+
+.footer {
+    position: relative;
+    border-top: 1px solid rgb(136, 135, 135);
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Karla', sans-serif;
+    color: rgb(107, 107, 107);
+    background-color: #e8f0f200;
+    text-align: center;
+}
+
+.mongo {
+    display: inline-block;
+    color: #074b5a;
+    font-size: 25px;
+    margin: 2%;
+    padding: 0;
+}
+
+.icon {
+    color: #074b5a;
+    display: inline-block;
+    font-size: 35px;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2%;
+    padding: 0;
+}
+
+.project {
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    border: 0px solid black;
+    width: 350px;
+    height: 225px;
+    margin: 15px;
+}
+
+.project:hover {
+    transition: .1s ease-in-out;
+    opacity: .75;
+}
+
+.project-name {
+    margin-top: 10%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.quackery {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.q-background {
+    background-color: #e6e6e6;
+}
+
+.heat-check {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.hc-background {
+    background-color:rgb(250, 143, 124);
+}
+
+.heat-check-react {
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.hp-quiz {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size : 50px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.hp-background {
+    background-color: #585858
+}
+
+.react {
+    background-color: #61DBFB
+}
+
+.forum-app {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.rightshot {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.proj-a {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.detail-container {
+    margin-top: 15px;
+    background-color: #d7e0e2;
+    width: 77.5%;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+    color:#053742;
+    text-align: left;
+    margin: 0
+}
+
+.proj-p {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 0;
+    font-family: 'Karla', sans-serif;
+    color: rgb(107, 107, 107);
+}
+
+.logo {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #053742
+}
+
+.logo:hover {
+    opacity: .75;
+    transition: .1s ease-in-out;
+}
+
+.cont {
+    display: inline-block;
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+    background-color: #d7e0e2;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.cont-icon {
+    color: #053742;
+    margin: 25%;
+    padding: 0;
+    font-size: 50px;
+}
+
+.cont:hover {
+    height: 200px;
+    transition: .1s ease-in-out;
+}
+
+.my-contact {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    font-size: 17.5px;
+}
+
+.email {
+    font-size: 12.5px;
+}
+
+.contact-container{
+    height: 300px;
+}

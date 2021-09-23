@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&amp;display=swap" rel="stylesheet">
+    <title>Welcome!</title>
+</head>
+<body>
+    <center>
+        <div class="nav-bar">
+            <h3 class="nav">
+                <a class="a" href="#projects">Projects</a>
+            </h3>
+            <h3 class="nav">
+                <a class="a" href="#contact">Contact Me</a>
+            </h3>
+            <h3 class="nav">
+                <a class="a" href="Web Developer Resume (2).pdf">Resume</a>
+            </h3>
+        </div>
+        <br>
+        <h1>Hello, I am Justin</h1>
+        <h3>Up-and-coming Web Developer</h3>
+    </center>
+    <h2>About Me</h2>
+    <p class="p">Hello there! I am Justin Domingo and I am a self-taught web developer. I've always had somewhat of an interest in coding since my dad is a software developer, but what really got me hooked was seeing web pages and games come to life. By the time I discovered it's limitless capabilities, I was completely immersed in the world of code. I began teaching myself through several hours of online learning, researching, and project-making. I also took and completed an online course about full-stack JavaScript programming, which included the use of Node, Express, mongoDB, and Socket.io. Since then, I've graduated into more advanced concepts like REST API, asynchronous code, etc. Along with this, I've also started learning about the basics of React and it's hooks. Now I am looking for an opportunity to demonstrate my skills and knowledge of programming.</p>
+    <hr>
+    <div>
+        <center>
+            <i class="fab fa-js icon"></i>
+            <i class="fab fa-node-js icon"></i>
+            <i class="fab fa-html5 icon"></i>
+            <i class="fab fa-css3-alt icon"></i>
+            <i class="fab fa-react icon"></i>
+            <div class="mongo">mongoDB</div>
+        </center>
+    </div>
+    <h2 id="projects">Projects</h2>
+    <center>
+        <a class="proj-a" href="https://minpost.herokuapp.com/">
+            <div class="project">
+                <div class="project-name forum-app">miniPost</div>
+            </div>
+        </a>
+        <a class="proj-a" href="https://quackerychat.herokuapp.com/">
+            <div class="project q-background">
+                <div class="project-name quackery">Quackery</div>
+            </div>
+        </a>
+        <a class="proj-a" href="https://weather-heat-check.herokuapp.com/">
+            <div class="project hc-background">
+                <div class="project-name heat-check">Heat Check</div>
+            </div>
+        </a>
+        <a class="proj-a" href="https://harpotquiz.herokuapp.com/">
+            <div class="project hp-background">
+                <div class="project-name hp-quiz">The HP Quiz</div>
+            </div>
+        </a>
+        <a class="proj-a" href="https://rightshot.herokuapp.com/">
+            <div class="project">
+                <div class="project-name rightshot">Rightshot</div>
+            </div>
+        </a>
+        <a class="proj-a" href="">
+            <div class="project react">
+                <div class="project-name heat-check-react">Heat Check (React)</div>
+            </div>
+        </a>
+        <div class="detail-container">
+            <div>
+                <h4>miniPost/Pigeon <a href='https://github.com/JustinDomingo/minpost'><i class="fab fa-github-square logo"></i></a></h4>
+                <p class="proj-p">In it's simplest terms, "miniPost" is a minimal social media application in which you can express your thoughts through small posts. You can create your account through the user registration/login feature that uses Node, Express, Session, and MongoDB authentication. When successfully logged in, you can create textual posts which will also validated through Node and Express. Once successfully validated, the posts will be pushed and saved into a MongoDB database. You are then free to edit, and delete your posts if you aren't happy with them. The application uses the view engine, "EJS".</p>
+            </div>
+        </div>
+        <br>
+        <div class="detail-container">
+            <div>
+                <h4>Quackery <a href='https://github.com/JustinDomingo/quackery'><i class="fab fa-github-square logo"></i></a></h4>
+                <p class="proj-p">Quackery is a minimal chatroom application in which you can exchange limitless messages with your friends. To begin chatting, you must choose a username (any username will work). You will then be redirected to the main chatroom. Behind the scenes, the application is using Socket.io to send real-time requests back and forth to the Node server and emitting them to all users that are currently connected. The application also uses sessions so each user will have unique usernames and data.</p>
+            </div>
+        </div>
+        <br>
+        <div class="detail-container">
+            <div>
+                <h4>Heat Check <a href='https://github.com/JustinDomingo/heat-check'><i class="fab fa-github-square logo"></i></a></h4>
+                <p class="proj-p">Heat Check is a simple weather application to see the current weather data of your desired city. When you submit the city form, the application sends a "GET" request through the "fetch" JavaScript method to a free weather API. Afterwards, the API responds with the proper weather data depending on the city the user typed into the field.</p>
+            </div>
+        </div>
+        <br>
+        <div class="detail-container">
+            <div>
+                <h4>The Harry Potter Quiz <a href='https://github.com/JustinDomingo/harpot'><i class="fab fa-github-square logo"></i></a></h4>
+                <p class="proj-p">The Harry Potter Quiz starts off as an easy and simple JavaScript quiz. The program saves your score in session. Afterwards, you are offered the ability to post your score to a MongoDB leaderboard. The app also uses Express and Node authentication to valiate users before pushing them into a MongoDB database. There is also a feature in which you can post comments to other users.</p>
+            </div>
+        </div>
+        <br>
+        <div class="detail-container">
+            <div>
+                <h4>Rightshot <a href='https://github.com/JustinDomingo/rightshot'><i class="fab fa-github-square logo"></i></a></h4>
+                <p class="proj-p">Rightshot is a simple vanilla JavaScript game. There are three targets that are displayed in the container and you must shoot the correct target. After you shoot a target, the three targets will reposition in random places. You will be timed 60 seconds and the quicker you shoot the correct target, the higher your score will be. Note that your accuracy will also be tracked.</p>
+            </div>
+        </div>
+        <br>
+        <div class="detail-container">
+            <div>
+                <h4>Heat Check (React Ver.) <a href='/'><i class="fab fa-github-square logo"></i></a></h4>
+                <p class="proj-p">This is the React version of the "Heat Check" weather application. The application uses the React "useState" hook whenever someone submits their inputted city. The inputted data is then used for the API's query parameters to make a "fetch" GET request.</p>
+            </div>
+        </div>
+        <br>
+    </center>
+    <h2 id="contact">Contact Me</h2>
+    <center>
+        <div class="contact-container">
+            <div class="cont">
+                <i class="fas fa-phone cont-icon"></i>
+                <div class="my-contact">310-561-4843</div>
+            </div>
+            <div class="cont">
+                <i class="fab fa-github cont-icon"></i>
+                <div class="my-contact">JustinDomingo</div>
+            </div>
+            <div class="cont">
+                <i class="fas fa-envelope cont-icon"></i>
+                <div class="my-contact email">jdomingo122601@gmail.com</div>
+            </div>
+        </div>
+    </center>
+    <div class="footer">
+        <p>&copy; Copyright 2021 All Rights Reserved</p>
+    </div>
+</body>
+</html>
